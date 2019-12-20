@@ -1,0 +1,87 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     train
+Instances:    22987
+Attributes:   46
+              and
+              bad
+              best
+              better
+              big
+              country
+              crap
+              damn
+              dance
+              day
+              democrats
+              do
+              fuck
+              gay
+              gift
+              great
+              happy
+              hate
+              ice
+              is
+              job
+              liberals
+              like
+              love
+              my
+              night
+              not
+              obama
+              people
+              racist
+              real
+              shit
+              sick
+              smart
+              so
+              stupid
+              the
+              their
+              they
+              to
+              today
+              trump
+              vote
+              watch
+              we
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 37.52 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       12572               54.6918 %
+Incorrectly Classified Instances     10415               45.3082 %
+Kappa statistic                          0.1469
+Mean absolute error                      0.3021
+Root mean squared error                  0.5496
+Relative absolute error                 72.6114 %
+Root relative squared error            120.509  %
+Total Number of Instances            22987     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.113    0.022    0.589      0.113    0.189      0.187    0.545     0.262     negative
+                 0.197    0.036    0.681      0.197    0.306      0.265    0.581     0.360     positive
+                 0.936    0.817    0.532      0.936    0.679      0.182    0.560     0.530     neutral
+WeAvg.    0.547    0.422    0.587      0.547    0.466      0.206    0.562     0.423     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+   570   136  4356 |     a = negative
+   130  1278  5063 |     b = positive
+   267   463 10724 |     c = neutral
+

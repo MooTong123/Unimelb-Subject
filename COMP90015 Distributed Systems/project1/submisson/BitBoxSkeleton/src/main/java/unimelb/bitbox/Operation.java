@@ -1,0 +1,30 @@
+package unimelb.bitbox;
+
+/**
+ * Operation
+ * Usage:
+ * Select operation commands
+ *
+ * @author Junjie Huang
+ * create time 30/04/2019
+ */
+public enum Operation {
+
+    CONNECTION_REFUSED,
+    HANDSHAKE_REQUEST,
+    HANDSHAKE_RESPONSE,
+    FILE_CREATE_REQUEST,
+    FILE_CREATE_RESPONSE,
+    FILE_BYTES_REQUEST,
+    FILE_BYTES_RESPONSE,
+    FILE_DELETE_REQUEST,
+    FILE_DELETE_RESPONSE,
+    FILE_MODIFY_REQUEST,
+    FILE_MODIFY_RESPONSE,
+    DIRECTORY_CREATE_REQUEST,
+    DIRECTORY_CREATE_RESPONSE,
+    DIRECTORY_DELETE_REQUEST,
+    DIRECTORY_DELETE_RESPONSE,
+    INVALID_PROTOCOL
+
+}

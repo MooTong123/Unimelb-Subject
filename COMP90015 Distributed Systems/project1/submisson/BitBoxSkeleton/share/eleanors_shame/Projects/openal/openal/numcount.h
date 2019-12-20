@@ -1,0 +1,1 @@
+int numcount(int number); 

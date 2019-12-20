@@ -1,0 +1,143 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     train-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.rules.ZeroR-weka.filters.supervised.attribute.ClassOrder-R1-C0-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5
+Instances:    22987
+Attributes:   17
+              best
+              day
+              fuck
+              great
+              happy
+              ice
+              is
+              liberals
+              love
+              my
+              night
+              not
+              people
+              stupid
+              they
+              trump
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+love = '(-inf-0.5]'
+|   fuck = '(-inf-0.5]'
+|   |   great = '(-inf-0.5]'
+|   |   |   best = '(-inf-0.5]'
+|   |   |   |   happy = '(-inf-0.5]'
+|   |   |   |   |   trump = '(-inf-0.5]'
+|   |   |   |   |   |   liberals = '(-inf-0.5]'
+|   |   |   |   |   |   |   ice = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   people = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   my = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   day = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   |   stupid = '(-inf-0.5]': neutral (17960.0/8182.0)
+|   |   |   |   |   |   |   |   |   |   |   stupid = '(0.5-inf)': negative (30.0/4.0)
+|   |   |   |   |   |   |   |   |   |   day = '(0.5-inf)'
+|   |   |   |   |   |   |   |   |   |   |   is = '(-inf-0.5]': neutral (408.0/213.0)
+|   |   |   |   |   |   |   |   |   |   |   is = '(0.5-inf)': positive (143.0/65.0)
+|   |   |   |   |   |   |   |   |   my = '(0.5-inf)'
+|   |   |   |   |   |   |   |   |   |   not = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   |   stupid = '(-inf-0.5]': positive (1184.0/638.0)
+|   |   |   |   |   |   |   |   |   |   |   stupid = '(0.5-inf)': negative (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   not = '(0.5-inf)': neutral (78.0/32.0)
+|   |   |   |   |   |   |   |   people = '(0.5-inf)'
+|   |   |   |   |   |   |   |   |   day = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   night = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   |   my = '(-inf-0.5]': negative (325.0/149.0)
+|   |   |   |   |   |   |   |   |   |   |   my = '(0.5-inf)': neutral (18.0/9.0)
+|   |   |   |   |   |   |   |   |   |   night = '(0.5-inf)': neutral (4.0/1.0)
+|   |   |   |   |   |   |   |   |   day = '(0.5-inf)': neutral (9.0/3.0)
+|   |   |   |   |   |   |   ice = '(0.5-inf)'
+|   |   |   |   |   |   |   |   day = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   is = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   |   my = '(-inf-0.5]': neutral (155.0/78.0)
+|   |   |   |   |   |   |   |   |   |   my = '(0.5-inf)': positive (11.0/3.0)
+|   |   |   |   |   |   |   |   |   is = '(0.5-inf)'
+|   |   |   |   |   |   |   |   |   |   my = '(-inf-0.5]': positive (53.0/16.0)
+|   |   |   |   |   |   |   |   |   |   my = '(0.5-inf)': neutral (3.0/1.0)
+|   |   |   |   |   |   |   |   day = '(0.5-inf)': positive (60.0/10.0)
+|   |   |   |   |   |   liberals = '(0.5-inf)': negative (74.0/14.0)
+|   |   |   |   |   trump = '(0.5-inf)'
+|   |   |   |   |   |   day = '(-inf-0.5]'
+|   |   |   |   |   |   |   they = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   is = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   |   my = '(-inf-0.5]': neutral (353.0/174.0)
+|   |   |   |   |   |   |   |   |   my = '(0.5-inf)': negative (8.0/2.0)
+|   |   |   |   |   |   |   |   is = '(0.5-inf)': negative (122.0/52.0)
+|   |   |   |   |   |   |   they = '(0.5-inf)'
+|   |   |   |   |   |   |   |   is = '(-inf-0.5]': negative (17.0/4.0)
+|   |   |   |   |   |   |   |   is = '(0.5-inf)': neutral (2.0)
+|   |   |   |   |   |   day = '(0.5-inf)': negative (2.0)
+|   |   |   |   happy = '(0.5-inf)'
+|   |   |   |   |   liberals = '(-inf-0.5]'
+|   |   |   |   |   |   not = '(-inf-0.5]'
+|   |   |   |   |   |   |   trump = '(-inf-0.5]'
+|   |   |   |   |   |   |   |   people = '(-inf-0.5]': positive (638.0/227.0)
+|   |   |   |   |   |   |   |   people = '(0.5-inf)'
+|   |   |   |   |   |   |   |   |   my = '(-inf-0.5]': neutral (10.0/4.0)
+|   |   |   |   |   |   |   |   |   my = '(0.5-inf)': positive (2.0)
+|   |   |   |   |   |   |   trump = '(0.5-inf)': negative (6.0/3.0)
+|   |   |   |   |   |   not = '(0.5-inf)'
+|   |   |   |   |   |   |   my = '(-inf-0.5]': negative (47.0/28.0)
+|   |   |   |   |   |   |   my = '(0.5-inf)': positive (5.0/2.0)
+|   |   |   |   |   liberals = '(0.5-inf)': negative (3.0)
+|   |   |   best = '(0.5-inf)': positive (335.0/107.0)
+|   |   great = '(0.5-inf)'
+|   |   |   trump = '(-inf-0.5]'
+|   |   |   |   not = '(-inf-0.5]': positive (258.0/66.0)
+|   |   |   |   not = '(0.5-inf)': neutral (15.0/7.0)
+|   |   |   trump = '(0.5-inf)': negative (6.0/3.0)
+|   fuck = '(0.5-inf)'
+|   |   best = '(-inf-0.5]': negative (228.0/69.0)
+|   |   best = '(0.5-inf)': positive (5.0/1.0)
+love = '(0.5-inf)'
+|   liberals = '(-inf-0.5]'
+|   |   not = '(-inf-0.5]': positive (383.0/77.0)
+|   |   not = '(0.5-inf)'
+|   |   |   my = '(-inf-0.5]': neutral (20.0/8.0)
+|   |   |   my = '(0.5-inf)': positive (3.0/1.0)
+|   liberals = '(0.5-inf)': negative (2.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	79
+
+
+Time taken to build model: 0.3 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       12641               54.992  %
+Incorrectly Classified Instances     10346               45.008  %
+Kappa statistic                          0.17  
+Mean absolute error                      0.3895
+Root mean squared error                  0.4421
+Relative absolute error                 93.6398 %
+Root relative squared error             96.9344 %
+Total Number of Instances            22987     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.105    0.020    0.593      0.105    0.178      0.181    0.599     0.327     negative
+                 0.289    0.078    0.593      0.289    0.389      0.276    0.632     0.453     positive
+                 0.894    0.754    0.541      0.894    0.674      0.183    0.575     0.540     neutral
+Weighted Avg.    0.550    0.402    0.567      0.550    0.484      0.209    0.597     0.469     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+   531   331  4200 |     a = negative
+   100  1870  4501 |     b = positive
+   264   950 10240 |     c = neutral
+

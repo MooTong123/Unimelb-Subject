@@ -1,0 +1,22 @@
+
+3÷÷»®œﬁ£∫owner group other
+
+owner: r w
+group: r w 
+other: r
+
+
+1)	RequestWritePermission: a protocol to send owner a request to get file write permission using encrypt the secrete message (user°Øs identity and owner°Øs public key).
+2)	ResponseWritePermission: a protocol to use owner°Øs private key to decrypt the secrete message and send response to the sender.
+3)	AddIntoGroup: a protocol to add the identity of user into the identity list, which means that the user joins into group class with permission of read and write.
+4)	RemoveFromGroup: a protocol to remove user°Øs identity when the user is off-line.
+5)	SetPermission: a protocol to set permission of a file/directory for three classes, which are owner, group and others. The creator of a file/directory is assigned to owner class directly; other peers will be assigned to others group automatically at the beginning; group class will be assigned after owner°Øs identification.
+6)	GenerateKeys: a protocol to generate peer°Øs public key and private key as a pair. For example, when a new peer joins into the network, this protocol will be used to generate its public key and private key.
+7)	BroadcastPublicKey: a protocol to broadcast peer°Øs identity and its public key to every peer.
+
+
+
+
+
+
+

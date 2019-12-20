@@ -1,0 +1,3 @@
+1. no java or C
+2. all functions all types covered in lectures and workshops
+3. no code style, correctly

@@ -1,0 +1,91 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     train
+Instances:    22987
+Attributes:   46
+              and
+              bad
+              best
+              better
+              big
+              country
+              crap
+              damn
+              dance
+              day
+              democrats
+              do
+              fuck
+              gay
+              gift
+              great
+              happy
+              hate
+              ice
+              is
+              job
+              liberals
+              like
+              love
+              my
+              night
+              not
+              obama
+              people
+              racist
+              real
+              shit
+              sick
+              smart
+              so
+              stupid
+              the
+              their
+              they
+              to
+              today
+              trump
+              vote
+              watch
+              we
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 25.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       12246               53.2736 %
+Incorrectly Classified Instances     10741               46.7264 %
+Kappa statistic                          0.1703
+Mean absolute error                      0.3788
+Root mean squared error                  0.4516
+Relative absolute error                 91.0688 %
+Root relative squared error             99.031  %
+Total Number of Instances            22987     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.189    0.070    0.431      0.189    0.263      0.166    0.634     0.346     negative
+                 0.303    0.103    0.534      0.303    0.387      0.245    0.650     0.453     positive
+                 0.814    0.674    0.546      0.814    0.653      0.161    0.594     0.552     neutral
+WeiAvg.    0.533    0.380    0.517      0.533    0.492      0.186    0.619     0.479     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+  957  483 3622 |    a = negative
+  362 1960 4149 |    b = positive
+  900 1225 9329 |    c = neutral
+

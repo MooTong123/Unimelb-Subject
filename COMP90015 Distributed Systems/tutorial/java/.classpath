@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JSONClient_and_MathServer/src"/>
+	<classpathentry kind="src" path="JSONClientServer(1)/ClientServer/src"/>
+	<classpathentry kind="src" path="JSONSimpleDemo(1)/JSONSimpleDemo/src"/>
+	<classpathentry kind="src" path="RMIDemo(1)/RMIDemo/RMIDemo/src"/>
+	<classpathentry kind="src" path="RMIDemo(1)/RMIDemo/src"/>
+	<classpathentry kind="src" path="SendingFile/SendingFile/src"/>
+	<classpathentry excluding="client/|client/" kind="src" path="SendingFile/SendingFileUsingJSON/src"/>
+	<classpathentry kind="src" path="ThreadSync(2)/ThreadSync/src"/>
+	<classpathentry excluding="src/" kind="src" path="JSONClient_and_MathServer"/>
+	<classpathentry kind="src" path="TCPInteractiveClientServer"/>
+	<classpathentry kind="lib" path="JSONClient_and_MathServer/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="JSONClientServer(1)/ClientServer/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="JSONSimpleDemo(1)/JSONSimpleDemo/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="SendingFile/SendingFileUsingJSON/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="JSONClientServer(1)/ClientServer/bin"/>
+</classpath>

@@ -1,0 +1,144 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     train-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.rules.ZeroR-weka.filters.supervised.attribute.ClassOrder-R1-C0-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5
+Instances:    22987
+Attributes:   17
+              best
+              day
+              fuck
+              great
+              happy
+              ice
+              is
+              liberals
+              love
+              my
+              night
+              not
+              people
+              stupid
+              they
+              trump
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute        negative positive  neutral
+                   (0.22)   (0.28)    (0.5)
+============================================
+best
+  '(-inf-0.5]'      5036.0   6229.0  11372.0
+  '(0.5-inf)'         28.0    244.0     84.0
+  [total]           5064.0   6473.0  11456.0
+
+day
+  '(-inf-0.5]'      4975.0   6060.0  11144.0
+  '(0.5-inf)'         89.0    413.0    312.0
+  [total]           5064.0   6473.0  11456.0
+
+fuck
+  '(-inf-0.5]'      4903.0   6433.0  11416.0
+  '(0.5-inf)'        161.0     40.0     40.0
+  [total]           5064.0   6473.0  11456.0
+
+great
+  '(-inf-0.5]'      5038.0   6263.0  11400.0
+  '(0.5-inf)'         26.0    210.0     56.0
+  [total]           5064.0   6473.0  11456.0
+
+happy
+  '(-inf-0.5]'      4979.0   5979.0  11244.0
+  '(0.5-inf)'         85.0    494.0    212.0
+  [total]           5064.0   6473.0  11456.0
+
+ice
+  '(-inf-0.5]'      5044.0   6286.0  11344.0
+  '(0.5-inf)'         20.0    187.0    112.0
+  [total]           5064.0   6473.0  11456.0
+
+is
+  '(-inf-0.5]'      3907.0   5191.0   9663.0
+  '(0.5-inf)'       1157.0   1282.0   1793.0
+  [total]           5064.0   6473.0  11456.0
+
+liberals
+  '(-inf-0.5]'      4994.0   6471.0  11442.0
+  '(0.5-inf)'         70.0      2.0     14.0
+  [total]           5064.0   6473.0  11456.0
+
+love
+  '(-inf-0.5]'      5040.0   6156.0  11386.0
+  '(0.5-inf)'         24.0    317.0     70.0
+  [total]           5064.0   6473.0  11456.0
+
+my
+  '(-inf-0.5]'      4818.0   5745.0  10903.0
+  '(0.5-inf)'        246.0    728.0    553.0
+  [total]           5064.0   6473.0  11456.0
+
+night
+  '(-inf-0.5]'      5024.0   6214.0  11188.0
+  '(0.5-inf)'         40.0    259.0    268.0
+  [total]           5064.0   6473.0  11456.0
+
+not
+  '(-inf-0.5]'      4552.0   6255.0  10729.0
+  '(0.5-inf)'        512.0    218.0    727.0
+  [total]           5064.0   6473.0  11456.0
+
+people
+  '(-inf-0.5]'      4855.0   6411.0  11309.0
+  '(0.5-inf)'        209.0     62.0    147.0
+  [total]           5064.0   6473.0  11456.0
+
+stupid
+  '(-inf-0.5]'      5032.0   6470.0  11449.0
+  '(0.5-inf)'         32.0      3.0      7.0
+  [total]           5064.0   6473.0  11456.0
+
+they
+  '(-inf-0.5]'      4739.0   6355.0  11133.0
+  '(0.5-inf)'        325.0    118.0    323.0
+  [total]           5064.0   6473.0  11456.0
+
+trump
+  '(-inf-0.5]'      4805.0   6443.0  11219.0
+  '(0.5-inf)'        259.0     30.0    237.0
+  [total]           5064.0   6473.0  11456.0
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       12655               55.0529 %
+Incorrectly Classified Instances     10332               44.9471 %
+Kappa statistic                          0.1794
+Mean absolute error                      0.3852
+Root mean squared error                  0.4392
+Relative absolute error                 92.5917 %
+Root relative squared error             96.2983 %
+Total Number of Instances            22987     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.119    0.023    0.595      0.119    0.198      0.194    0.643     0.374     negative
+                 0.319    0.092    0.577      0.319    0.411      0.282    0.655     0.484     positive
+                 0.872    0.729    0.543      0.872    0.669      0.179    0.595     0.555     neutral
+Weighted Avg.    0.551    0.394    0.564      0.551    0.493      0.211    0.623     0.495     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+  603  360 4099 |    a = negative
+   99 2065 4307 |    b = positive
+  312 1155 9987 |    c = neutral
+

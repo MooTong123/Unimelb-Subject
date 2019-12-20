@@ -1,0 +1,63 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     train-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5
+Instances:    22987
+Attributes:   18
+              best
+              day
+              fuck
+              great
+              happy
+              ice
+              is
+              liberals
+              love
+              my
+              night
+              not
+              people
+              sick
+              stupid
+              they
+              trump
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 7.4 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       12626               54.9267 %
+Incorrectly Classified Instances     10361               45.0733 %
+Kappa statistic                          0.1694
+Mean absolute error                      0.3849
+Root mean squared error                  0.4409
+Relative absolute error                 92.5194 %
+Root relative squared error             96.6843 %
+Total Number of Instances            22987     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.118    0.025    0.569      0.118    0.195      0.184    0.641     0.364     negative
+                 0.278    0.072    0.601      0.278    0.380      0.275    0.651     0.471     positive
+                 0.893    0.756    0.540      0.893    0.673      0.180    0.592     0.551     neutral
+We Avg.    0.549    0.402    0.564      0.549    0.485      0.208    0.619     0.487     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+   597   301  4164 |     a = negative
+   120  1800  4551 |     b = positive
+   332   893 10229 |     c = neutral
+

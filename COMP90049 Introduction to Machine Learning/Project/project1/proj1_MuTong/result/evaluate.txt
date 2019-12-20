@@ -1,0 +1,178 @@
+Dictionary size = 370099
+Testset size = 10322
+Number of misspell words in Dict = 8376
+Number of correct words not in Dict = 1778
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+
+
+
+GED
+the total number of correct answer: 10322
+correct returned answer: 7987
+returned prediction:  40717
+system precision:  0.19615885256772356
+system recall:  0.7737841503584577
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:32341
+correct returned prediction:182
+GED precision:0.00562753161621
+GED recall: 0.0935251798561151
+
+
+
+
+
+LED
+the total number of correct answer: 10322
+correct returned answer: 8289
+returned prediction:  1202213
+system precision:  0.006894784867573383
+system recall:  0.803042046115094
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:1193837
+correct returned prediction:484
+LED precision:0.000405415479
+LED recall: 0.248715313
+
+
+
+
+ngram_1
+the total number of correct answer: 10322
+correct returned answer: 7892
+returned prediction:  14374
+system precision:  0.54904689021845
+system recall:  0.7645805076535556
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:5998
+correct returned prediction:87
+ngram_1 precision:0.0145048349
+ngram_1 recall:0.04470709
+
+
+
+
+
+
+ngram_2
+the total number of correct answer: 10322
+correct answer:1946
+correct returned answer: 7938
+returned prediction:  11549
+system precision:  0.6873322365572777
+system recall:  0.7690370083317186
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:3173
+correct returned prediction:133
+ngram_2 precision:0.0419161676646
+ngram_2 recall:0.068345235323
+
+
+
+
+
+
+ngram_3
+the total number of correct answer: 10322
+correct returned answer: 7936
+returned prediction:  11448
+system precision:  0.6932215234102026
+system recall:  0.7688432474326681
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:3072
+correct returned prediction:131
+ngram_3 precision:0.0426432291666
+ngram_3 recall:0.0673175745
+
+
+
+
+
+
+ngram_4
+the total number of correct answer: 10322
+correct returned answer: 7935
+returned prediction:  11386
+system precision:  0.6969084841032848
+system recall:  0.7687463669831428
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:3010
+correct returned prediction:130
+ngram_4 precision:0.04318936877076
+ngram_4 recall: 0.06680369989
+
+
+soundex
+the total number of correct answer: 10322
+correct returned answer: 8166
+returned prediction:  42572
+system precision:  0.19181621723198347
+system recall:  0.7911257508234838
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:34196
+correct returned prediction:361
+soundex precision:0.01052754708153
+soundex recall: 0.185508735
+
+editex
+the total number of correct answer: 10322
+correct returned answer: 7908
+returned prediction:  24819
+System precision:  0.31862685845521577
+System recall:  0.7661305948459601
+
+correct exact match  7805
+wrong exact match  571
+misspell not in dict:  1946
+
+for predict 1946 misspell(not in dict)
+correct answer:1946
+returned prediction:16443
+correct returned prediction:103
+editex precision:0.006264063735
+editex recall: 0.052929085
