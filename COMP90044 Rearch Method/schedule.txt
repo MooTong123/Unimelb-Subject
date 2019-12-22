@@ -1,0 +1,119 @@
+Week 1
+Activities:
+
+215-315PM , Lecture, everyone, Masson Theatre, Chemistry Building, Introduction: Justin Zobel will give an overview of the subject, and of research generally.
+315-515PM, Breakout, masters coursework students, Masson Theatre, Chemistry Building, Writing a Minor Thesis: Justin Zobel will run a session on how to plan and write a masters coursework thesis
+315-515PM, Breakout, PhD and MPhil students, Denis Driscoll Theatre, Doug McDonell Building, Writing a Major Thesis:  George Buchanan will run a session on how to plan and write a PhD or MPhil thesis.
+Assessment:
+
+Masters coursework students: Download and browse the suggested research projects list: Research Projects.pdf . Read the papers associated with projects that interest you, and begin forming a research question. There will be a clinic on research questions next week. The video below gives some pointers on forming a good research quesion.
+
+PhD/MPhil students will use their research topics for this subject.
+Item
+Week 2
+Activities:
+
+215-415, Lecture, everyone, Masson Thatre, Chemistry Building, Literature Reviews: Justin Zobel will give an overview of how to do a good literature review--synthesizing and writing about the work in your field.
+Assessment:
+
+Masters Coursework Students, 1030-1230 Tuesday, room 8.03 Doug McDonell Building: Research question clinic with George and Dana. Attendance is not mandatory, but it is recommended, especially if you are doing your own research question. 
+6PM Friday Deadline to provide your research question in the Assessment section
+6PM  Friday Release of assignment 1
+Item
+Week 3
+Activities:
+
+215-415, Workshop, everyone, Masson Theatre Chemistry Building, Library Skills: Guido Tresoldi from the library will give you advice on how to find and recognise the best peer-reviewed research for your topic. This session will have interactive elements, bring a laptop or device.
+Assessment:
+
+None this week
+Item
+Week 4
+Activities:
+
+215-315 Lecture, everyone, Masson Theatre, Chemistry Building, Research Planning: Dana McKay will give a one hour lecture on how to plan and conduct a research project.
+315-515 Workshop, Masters Coursework Students, Masson Theatre, Chemistry Building, Writing: George Buchanan and Dana McKay will run a writing workshop for masters students showing elements of good and bad writing.
+315-415 Workshop, PhD Students, Denis Driscoll Theatre Doug McDonell Building, PhD Process: Alistair Moffatt will given an overview of the PhD process to PhD students
+Assessment:
+
+Friday, 6PM Optional draft literature review of 500 words due in the assessment section. We will provide feedback on this to allow you to improve your score in the final version of this assessment. While this assessment is not compulsory, it is strongly recommended. No late assignments will be accepted.
+
+
+Item
+Week 5
+Activities:
+
+215-415 Lecture, everyone, Masson Theatre,  Chemistry Building, Writing Skills: Justin Zobel will take you all through the basics of good writing. This will be important for your assessment.  Note that only the 'writing.pdf' slides will be presented in the lectuer, 'writinting-a-paper.pdf' and 'writing-caution.pdf' are provided for your reference. writing.pdf  writing-a-paper.pdf writing-caution.pdf  
+Assessment:
+
+Friday 6PM: Feedback on your indicative assessment will eb released in TurnItIn
+
+
+Item
+Week 6
+Activities:
+
+215-315, Lecture, everyone, Masson Theatre, Chemistry Building, Empirical Methods in Computing: Chris Ewin will take you through empirical methods used in computer science. Everyone should attend this
+415-515, Workshop, computer science students, Masson Theatre, Chemistry Building, Trialling Empirical Computing Methods: Chris Ewin will take you through some exercises to practice some of the methods discussed in the lecture. Bring a laptop or device if you have one.
+Assessment:
+
+None this week
+Item
+Week 7
+Activities:
+
+215-315, Lecture, everyone, Masson Theatre, Chemsitry Building, Research Ethics: Dana McKay will walk you through a range of ethical issues facing researchers including fraud, plagiarism, peer review and human ethics
+315-415 Workshop, everyone, Masson Theatre, Chemistry Building, Research Ethics: Dana McKay, George Buchanan, and will walk you through some practical examples of ethics challenges in research to strengthen the learning from the lecture. 
+Assessment:
+
+11AM Monday: Assignment 1 is due in the Assignment section. 
+6PM Friday: Assignment 2 Released in the Assignment section.
+Item
+Week 8
+Activities:
+
+215-415, Lecture, everyone, MSD B121, Giving Presentations: Justin Zobel will teach you all how to prepare for and deliver a great presentation.
+Lecture slides: presenting.pdf  
+Assessment:
+
+None this week
+Item
+Week 9
+Activities:
+
+215-315, Lecture, everyone, Masson Theatre, Chemistry Building, Research Focus: Senior academics from the School of Computing and Information Systems will deliver a small talk on their research. This is a great way to understand the research being done by the school.
+315-415 Lecture, PhD Students, Masson Theatre, Chemistry Building: Dana will give an interactive lecture on the review perocess and how to write good reviews for PhD students.
+Assessment
+
+6PM Friday: Draft research plan due, submit this through the Assessment section of the LMS. This is optional, but strongly recommended. No late submissions will be accepted.
+
+
+Item
+Teaching Break
+No assessment or activities this week
+
+Item
+Week 10
+Activities:
+
+215-415, Lecture everyone, Masson Theatre, Chemistry Building, Statistics for Computing: Lecturer to be confirmed. This lecture will address which statistical tests are used in computing, and how you might use them
+Assessment:
+
+6PM Wednesday: Feedback on your indicative assessments will be visible in TurnItIn.
+Item
+Week 11
+Activities:
+
+215-315, Lecture, everyone, Masson Theatre, Chemistry Building, Qualitative Methods: Lecturer to be confirmed.  This lecture willd escribe how qualitative methods are used primarily in IS research
+315-415, Workshop IS students, Masson Theatre, Chemistry Building, IS Methods: Lecturer TBC. This will be an interactive session where you trial some IS methods.
+Assessment:
+
+9AM Monday: Indicative assignment due for feedback in TurnItIn via the assessment link. This is not compulsory, but will help with Assignment 2. No late submissions will be accepted.
+Item
+Week 12
+Activities:
+
+215-415, Lecture, everyone, Masson Theare, Chemistry Building, Statistical Methods for IS: Lecturer TBC. This lecture will give an overview of the statistical methods used in IS research.
+Assessment:
+
+6PM Friday: Assignment 2 due in TurnItIn in the Assessment section.

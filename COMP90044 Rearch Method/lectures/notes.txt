@@ -1,0 +1,29 @@
+
+写作的要求：
+1. 简洁，不要写没有必要的单词
+2. user can be
+	is possible
+3. 不要长句子
+4. 用例子举例
+5. 注意专业说明 要解释说明
+6. 不要写大话：  algorithm is fast？？
+7. 写好purpose，好好解释每个部分（theorem，algorithm，definition）
+8. 数学公式，notation什么的写好，用工具写好！
+9. 不要过度概括
+10. 解释algorithm为什么interesting：steps，input output，data structure， proof，analysis，experiments that confirm its behaviour,evaluating performance
+11. 用数学表达式不要用programming language
+12. 解释实验！ 解释data，testbed，parameter, result
+13 table的规则！！
+14.useless figures
+
+15. different methods 之间的联系，优缺点 不要只是list methods
+
+
+
+
+
+
+
+
+
+
